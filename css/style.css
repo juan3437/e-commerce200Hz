@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#section2 {
+  background-image: url(../img/home3.jpg);
+}
+
+.menu ul li a {
+  color: aliceblue;
+  font-family: "Rajdhani";
+  font-size: 1.2em;
+}
+.menu ul li a:hover {
+  text-decoration: overline;
+  color: bisque;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  color: aliceblue;
+}
+
+.headerPortada {
+  display: flex;
+  justify-content: end;
+}
+
+.redes a {
+  position: relative;
+  color: aliceblue;
+}
+.redes a:hover {
+  text-decoration: overline;
+  color: bisque;
+}
+
+.gif a {
+  color: aliceblue;
+}
+
+.text {
+  color: aliceblue;
+}
+
+.mayorista .gif {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: "Rajdhani";
+}
+.mayorista .gif:hover {
+  text-decoration: overline;
+  color: bisque;
+}
+
+.titulo-texto {
+  font-family: "Special Elite";
+  position: relative;
+  padding: 1em;
+}
+
+.card-portada {
+  width: 35em;
+  height: 100%;
+  border-radius: 0.5%;
+  position: relative;
+  margin: 1em;
+}
+.card-portada::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5%;
+  background-color: antiquewhite;
+  opacity: 0.9;
+}
+.card-portada:hover {
+  box-shadow: 1px 5px 8px black;
+}
+
+@media screen and (max-width: 768px) {
+  .card-portada {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0.5em;
+  }
+  .container {
+    width: 70%;
+  }
+  .menu ul li {
+    font-size: 0.5em;
+  }
+  .texto-portada p {
+    font-size: 0.5em;
+  }
+}
+.texto-portada {
+  position: relative;
+  padding: 0.5em;
+  font-family: "Poiret One";
+  font-size: 1.5em;
+}
+
+button {
+  display: flex;
+  justify-content: end;
+  flex-wrap: nowrap;
+  padding: 1em;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: black;
+}
+
+div .texto p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 2em;
+  font-size: 1.5em;
+  color: black;
+  position: relative;
+}
+
+.card {
+  border: black solid 0.1em;
+}
+.card:hover {
+  box-shadow: 1px 3px 5px wheat;
+}
+
+div .boton button {
+  color: black;
+}
+
+.icono {
+  color: antiquewhite;
+}
+
+span {
+  text-align: center;
+  color: antiquewhite;
+  font-family: fantasy;
+  text-decoration: none;
+}
+
+.parallax {
+  background-image: url(../img/fondoProductos3.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  height: auto;
+}
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+  opacity: 0.6;
+}
+
+.titulo-pie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Special Elite", cursive;
+}
+
+.listaFooter {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listaFooter ul li a {
+  color: black;
+}
+.listaFooter ul li a:hover {
+  text-decoration: overline;
+  color: antiquewhite;
+}
+
+.categoriaFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactoFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.listaRedes {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .listaFooter {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.tarjetas {
+  display: flex;
+  justify-content: center;
+}
+
+.infoPagos {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.infoIcon {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+
+svg {
+  margin: 0.5em;
+}
+
+.icon p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Rajdhani";
+}
+
+.form {
+  color: antiquewhite;
+}
+
+.cuentas {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  font-family: "Rajdhani";
+}
+
+.formularios {
+  padding: 1em;
+}
+
+.btn-form {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color: antiquewhite;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.container-form {
+  margin-bottom: 2em;
+}
+
+.fondoForm {
+  background-image: url(../img/fondoForm1.png);
+}
+
+.contacto {
+  margin: 0.5em;
+}
+
+.fondoContacto {
+  background-image: url(../img/contactoFondo2.png);
+}
+
+/*# sourceMappingURL=style.css.map */
